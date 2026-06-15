@@ -1,5 +1,4 @@
 #include <string.h>
-
 #include "sort.h"
 
 static void swapTask(
@@ -12,7 +11,6 @@ static void swapTask(
 }
 
 //SORT BY TITLE
-
 static int partitionTitle(
     Task arr[],
     int low,
@@ -54,8 +52,7 @@ void quickSortByTitle(
     Task arr[],
     int low,
     int high)
-{
-    if(low < high)
+{ if(low < high)
     {
         int pi =
             partitionTitle(
@@ -136,7 +133,6 @@ void quickSortByPriority(
 }
 
 //SORT BY DEADLINE
-
 static int partitionDeadline(
     Task arr[],
     int low,
