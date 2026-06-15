@@ -1,0 +1,16 @@
+ID,Title,Course,Deadline,Priority
+101,Laporan BST,Struktur Data,2026-06-15,1
+102,Implementasi Hash Table,Struktur Data,2026-06-20,2
+103,Normalisasi Database,Basis Data,2026-06-18,3
+104,ERD Sistem Akademik,Basis Data,2026-06-22,2
+105,Analisis Algoritma,Struktur Data,2026-06-12,1
+106,Tugas Rekayasa Perangkat Lunak,RPL,2026-06-25,4
+107,Use Case Diagram,RPL,2026-06-17,2
+108,Presentasi Jaringan Komputer,Jaringan,2026-06-14,1
+109,Konfigurasi Router,Jaringan,2026-06-28,3
+110,Laporan Sorting,Struktur Data,2026-06-11,1
+111,Project Mini Kalkulus,Kalkulus,2026-06-21,4
+112,Integral Numerik,Kalkulus,2026-06-16,2
+113,Program Queue,Struktur Data,2026-06-13,2
+114,Manajemen Memori,Sistem Operasi,2026-060-19,3
+115,Scheduling CPU,Sistem Operasi,2026-06-24,2
