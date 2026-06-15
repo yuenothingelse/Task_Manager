@@ -151,3 +151,47 @@ void showStatistics(
     printf(
         "=========================================\n");
 }
+
+void showComplexityAnalysis()
+{
+    printf("\n");
+    printf("=========================================\n");
+    printf("         COMPLEXITY ANALYSIS\n");
+    printf("=========================================\n");
+
+    printf(
+        "BST Search             : O(log n)\n");
+
+    printf(
+        "BST Insert             : O(log n)\n");
+
+    printf(
+        "BST Delete             : O(log n)\n");
+
+    printf(
+        "Tree Traversal         : O(n)\n");
+
+    printf(
+        "Hash Search            : O(1)\n");
+
+    printf(
+        "Hash Insert            : O(1)\n");
+
+    printf(
+        "Heap Insert            : O(log n)\n");
+
+    printf(
+        "Heap Delete            : O(log n)\n");
+
+    printf(
+        "Highest Priority       : O(1)\n");
+
+    printf(
+        "Quick Sort Average     : O(n log n)\n");
+
+    printf(
+        "Quick Sort Worst Case  : O(n²)\n");
+
+    printf(
+        "=========================================\n");
+}
