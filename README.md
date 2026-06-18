@@ -6,7 +6,7 @@
 ██║  ██╗███████╗███████╗╚██████╔╝██║ ╚═╝ ██║██║     ╚██████╔╝██║  ██╗
 ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
 
-                    N I N E
+                    
 ```
 # 📋 System Task Management
 
@@ -14,9 +14,9 @@ Sistem Manajemen Tugas Mahasiswa berbasis bahasa C yang mengimplementasikan berb
 
 ## 👥 Kelompok
 
-* Abrar Muda (250810201100080)
-* Mirza Nur Akhyar (250810701100087)
-* M. Hafidh Farras (250810701100098)
+**abrarmuda59-droid** as ABRAR MUDA 
+**yuenothingelse** as MIRZA NUR AKHYAR
+**Hafidhfrr** as M. HAFIDH FARRAS
 
 Program ini dikembangkan sebagai tugas akhir mata kuliah Struktur Data dan Algoritma di Universitas Syiah Kuala.
 
