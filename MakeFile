@@ -1,0 +1,10 @@
+gcc \
+main.c \
+bst/bst.c \
+hash/hash.c \
+heap/heap.c \
+sort/sort.c \
+utils/display.c \
+-o taskmanager
+
+./taskmanager   
