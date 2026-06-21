@@ -22,6 +22,9 @@ BSTNode *createNode(Task task)
     return newNode;
 }
 
+
+
+
 BSTNode *insertBST(
     BSTNode *root,
     Task task)
@@ -49,6 +52,9 @@ BSTNode *insertBST(
     return root;
 }
 
+
+
+
 BSTNode *searchBST(
     BSTNode *root,
     int id)
@@ -75,6 +81,8 @@ BSTNode *searchBST(
         id);
 }
 
+
+
 BSTNode *findMin(
     BSTNode *root)
 {
@@ -87,6 +95,9 @@ BSTNode *findMin(
 
     return root;
 }
+
+
+
 
 BSTNode *deleteBST(
     BSTNode *root,
@@ -149,6 +160,9 @@ BSTNode *deleteBST(
     return root;
 }
 
+
+
+
 int updateTaskInBST(
     BSTNode *root,
     int id,
@@ -168,6 +182,9 @@ int updateTaskInBST(
 
     return 1;
 }
+
+
+
 
 void printTask(
     Task task)
@@ -203,6 +220,9 @@ void printTask(
     printf("---------------------------------\n");
 }
 
+
+
+
 void inorderTraversal(
     BSTNode *root)
 {
@@ -220,6 +240,9 @@ void inorderTraversal(
     inorderTraversal(
         root->right);
 }
+
+
+
 
 void preorderTraversal(
     BSTNode *root)
@@ -239,6 +262,8 @@ void preorderTraversal(
         root->right);
 }
 
+
+
 void postorderTraversal(
     BSTNode *root)
 {
@@ -257,6 +282,8 @@ void postorderTraversal(
         root->task);
 }
 
+
+
 int countTasks(
     BSTNode *root)
 {
@@ -271,6 +298,9 @@ int countTasks(
            countTasks(
                root->right);
 }
+
+
+
 
 int countCompletedTasks(
     BSTNode *root)
@@ -290,6 +320,9 @@ int countCompletedTasks(
            countCompletedTasks(
                root->right);
 }
+
+
+
 
 int countPendingTasks(
     BSTNode *root)
