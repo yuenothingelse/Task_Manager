@@ -3,6 +3,8 @@
 
 #include "heap.h"
 
+
+
 static void swapTask(
     Task *a,
     Task *b)
@@ -11,6 +13,9 @@ static void swapTask(
     *a = *b;
     *b = temp;
 }
+
+
+
 
 static void heapifyUp(
     MinHeap *heap,
@@ -35,6 +40,8 @@ static void heapifyUp(
         index = parent;
     }
 }
+
+
 
 static void heapifyDown(
     MinHeap *heap,
@@ -78,11 +85,15 @@ static void heapifyDown(
     }
 }
 
+
+
 void initHeap(
     MinHeap *heap)
 {
     heap->size = 0;
 }
+
+
 
 void insertHeap(
     MinHeap *heap,
@@ -103,6 +114,9 @@ void insertHeap(
 
     heap->size++;
 }
+
+
+
 
 void deleteHeap(
     MinHeap *heap,
@@ -137,6 +151,8 @@ void deleteHeap(
         index);
 }
 
+
+
 void updateHeap(
     MinHeap *heap,
     Task task)
@@ -167,6 +183,9 @@ void updateHeap(
         task);
 }
 
+
+
+
 Task *getHighestPriorityTask(
     MinHeap *heap)
 {
@@ -177,6 +196,9 @@ Task *getHighestPriorityTask(
 
     return &heap->tasks[0];
 }
+
+
+
 
 void displayPriorityQueue(
     MinHeap *heap)
