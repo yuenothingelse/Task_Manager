@@ -1,5 +1,7 @@
 #include <string.h>
+
 #include "sort.h"
+
 
 static void swapTask(
     Task *a,
@@ -9,6 +11,7 @@ static void swapTask(
     *a = *b;
     *b = temp;
 }
+
 
 //SORT BY TITLE
 static int partitionTitle(
@@ -48,6 +51,8 @@ static int partitionTitle(
     return i + 1;
 }
 
+
+
 void quickSortByTitle(
     Task arr[],
     int low,
@@ -72,8 +77,9 @@ void quickSortByTitle(
     }
 }
 
-//SORT BY PRIORITY
 
+
+//SORT BY PRIORITY
 static int partitionPriority(
     Task arr[],
     int low,
@@ -107,6 +113,8 @@ static int partitionPriority(
     return i + 1;
 }
 
+
+
 void quickSortByPriority(
     Task arr[],
     int low,
@@ -131,6 +139,8 @@ void quickSortByPriority(
             high);
     }
 }
+
+
 
 //SORT BY DEADLINE
 static int partitionDeadline(
@@ -169,6 +179,8 @@ static int partitionDeadline(
 
     return i + 1;
 }
+
+
 
 void quickSortByDeadline(
     Task arr[],
