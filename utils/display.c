@@ -2,6 +2,7 @@
 
 #include "display.h"
 
+
 void showMainMenu()
 {
     printf("\n");
@@ -24,6 +25,8 @@ void showMainMenu()
     printf("0. Exit\n");
     printf("=========================================\n");
 }
+
+
 
 void showDashboard(
     BSTNode *root,
@@ -103,6 +106,8 @@ void showDashboard(
         "=========================================\n");
 }
 
+
+
 void showStatistics(
     BSTNode *root)
 {
@@ -151,6 +156,8 @@ void showStatistics(
     printf(
         "=========================================\n");
 }
+
+
 
 void showComplexityAnalysis()
 {
