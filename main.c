@@ -13,7 +13,6 @@
 #define MAX_TASKS 100
 
 Task taskList[MAX_TASKS];
-
 int taskCount = 0;
 
 BSTNode *root = NULL;
