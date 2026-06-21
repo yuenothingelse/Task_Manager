@@ -6,6 +6,8 @@
 
 HashNode *hashTable[TABLE_SIZE] = {NULL};
 
+
+
 int hashFunction(const char *course)
 {
     int hash = 0;
@@ -18,6 +20,8 @@ int hashFunction(const char *course)
 
     return hash;
 }
+
+
 
 void insertHash(Task task)
 {
@@ -39,6 +43,8 @@ void insertHash(Task task)
 
     hashTable[index] = newNode;
 }
+
+
 
 void searchByCourse(const char *course)
 {
@@ -101,10 +107,14 @@ void searchByCourse(const char *course)
     }
 }
 
+
+
 void displayCourseTasks(const char *course)
 {
     searchByCourse(course);
 }
+
+
 
 void deleteHash(int id)
 {
@@ -146,6 +156,8 @@ void deleteHash(int id)
     }
 }
 
+
+
 void updateHash(Task task)
 {
     for(int i = 0;
@@ -172,6 +184,8 @@ void updateHash(Task task)
 
     insertHash(task);
 }
+
+
 
 void freeHashTable()
 {
