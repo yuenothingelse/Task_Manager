@@ -227,19 +227,6 @@ Proyek ini dibuat untuk:
 
 ---
 
-## 🛠️ Teknologi
-
-* Language : C
-* Compiler : GCC
-* Data Structure :
-  * Binary Search Tree
-  * Hash Table
-  * Min Heap    
-* Algorithm :
-  * Quick Sort
-
----
-
 ## 📜 Lisensi
 
 Project ini dibuat untuk keperluan akademik pada mata kuliah Struktur Data dan Algoritma, Fakultas MIPA Universitas Syiah Kuala.
