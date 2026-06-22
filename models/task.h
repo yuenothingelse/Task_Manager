@@ -1,6 +1,6 @@
 #ifndef TASK_H
-#define TASK_H
 
+#define TASK_H
 #define TITLE_LENGTH 100
 #define COURSE_LENGTH 50
 #define DEADLINE_LENGTH 20
